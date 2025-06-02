@@ -1,0 +1,42 @@
+/* Navbar */
+.navbar-orange {
+  background-color: #ff9933;
+  color: #cc6600;
+}
+
+.text-custom-orange {
+  color: #cc6600 !important;
+}
+
+/* Banner */
+.banner-wrapper img {
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Breadcrumb */
+.custom-breadcrumb {
+  background-color: #e8ecef;
+  padding: 10px;
+  text-align: center;
+  margin-right: 88%;
+  border-radius: 8px;
+  color: orange;
+}
+
+/* Card image */
+.card-img-top {
+  object-fit: cover;
+  height: 300px;
+}
+
+/* Footer */
+.footer-orange {
+  background-color: #ff8533;
+}
+
+.footer-white-icons a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
