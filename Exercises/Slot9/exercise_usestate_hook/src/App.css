@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 40px;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h2 {
+  color: #2d6cdf;
+  margin-bottom: 10px;
+}
+
+hr {
+  width: 60%;
+  margin: 32px 0 24px 0;
+  border: 0;
+  border-top: 2px solid #e0e0e0;
+}
+
+button {
+  background: #2d6cdf;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  margin: 0 8px 12px 0;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #174a8b;
+}
+
+input[type="text"] {
+  padding: 8px 12px;
+  border: 1.5px solid #bfc9d1;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 8px;
+  outline: none;
+  transition: border 0.2s;
+}
+input[type="text"]:focus {
+  border: 1.5px solid #2d6cdf;
+}
+
+/* Section nội dung toggle */
+.toggle-content {
+  margin-top: 10px;
+  color: #fff;
+  background: #2d6cdf;
+  padding: 16px 24px;
+  border-radius: 8px;
+  font-size: 18px;
+  box-shadow: 0 2px 8px rgba(44, 108, 223, 0.08);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .App {
+    padding-top: 10px;
+  }
+  hr {
+    width: 90%;
+  }
+  .toggle-content {
+    font-size: 16px;
+    padding: 10px 8px;
+  }
+}
