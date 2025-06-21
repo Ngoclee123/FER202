@@ -1,0 +1,20 @@
+.app-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #61dafb;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
