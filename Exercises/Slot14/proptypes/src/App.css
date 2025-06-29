@@ -1,0 +1,114 @@
+.App {
+  padding: 2rem 0;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem !important;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 2rem !important;
+  font-weight: 600;
+}
+
+h2 {
+  color: #34495e;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #eee;
+}
+
+.form-group {
+  margin-bottom: 1.5rem !important;
+}
+
+.form-label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.form-control {
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #dee2e6;
+}
+
+.form-control:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.25);
+}
+
+.btn-primary {
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  background-color: #4a90e2;
+  border-color: #4a90e2;
+}
+
+.btn-primary:hover {
+  background-color: #357abd;
+  border-color: #357abd;
+}
+
+.alert {
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+}
+
+.form-check {
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+/* Style for individual UserProfile components */
+.user-profile {
+  border: 1px solid #dee2e6;
+  padding: 1.5rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  background-color: #fff;
+}
+
+/* Add spacing between examples */
+.example-section {
+  margin-bottom: 3rem;
+}
+
+/* Style for error messages */
+.invalid-feedback {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  color: #dc3545;
+}
+
+/* Style for success messages */
+.valid-feedback {
+  color: #28a745;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+}
